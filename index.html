@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloging Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">Blogging Website</div>
+        <div class="header-right">
+            <button id="mybtn" class="btn">Create New Post</button>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+         <h3 style="margin: 10px;">Create A Post</h3>
+         <input type="text" placeholder="Enter Your heading..." style="width: 80%;margin: 10px;padding: 5px;">
+         <textarea placeholder="Enter ur blog post here..." cols="50" rows="5" style="margin: 10px;width: 80%;padding: 5px;"></textarea>
+         <div class="footer-btn">
+            <button id="mybtn1" style="margin: 10px; padding: 3px;">Publish Post</button>
+            <button id="mybtn2" style="margin: 10px;padding: 3px;">Cancel Post</button>
+         </div>
+        </div>
+      </div>
+    <div id="h-body">
+    <h3>My Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dignissimos debitis vitae exercitationem ea pariatur doloremque 
+         similique! Nam veniam minima quia expedita vel optio! 
+        Pariatur quod quos itaque necessitatibus iure quisquam.</p>
+     <div>
+        <button class="editpost">Edit Post</button>
+        <button class="deletepost">Delete Post</button>
+     </div>   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
