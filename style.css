@@ -72,3 +72,6 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
+#mybtn1,#mybtn2{
+    display:none;
+}
